@@ -23,7 +23,7 @@ Supports speech recognition, text-to-speech, to-do list, notes, Wikipedia search
 1. Clone this repo
 2. `pip install -r requirements.txt`
 3. Run: `python main.py`
-4. Say "Hello" → Assistant starts!
+4. Wait for "Listening..." to come and then start speaking
 
 ## 📁 Project Structure (Modular Design)
 - `main.py` → The brain (while loop + command routing)
@@ -32,3 +32,5 @@ Supports speech recognition, text-to-speech, to-do list, notes, Wikipedia search
 
 Made with ❤️ for my Python Major Project  
 Feel free to work and improve!
+
+Contact me if any errors faced, or doubts in the project: https://discord.gg/s4qsdWS5S2
