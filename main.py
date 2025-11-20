@@ -82,7 +82,7 @@ while True:
         city = city.strip()
         print(f"Searching for city: '{city}'")
         if city == "":
-            get_weather("Amaravati") 
+            get_weather("Delhi")
         else:
             get_weather(city)
     #-------------------------------------------SIMPLE MATH5
