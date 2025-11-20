@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 data/todo_list.txt
 data/notes.txt
+.vscode
