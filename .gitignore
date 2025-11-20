@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment (if you ever create one)
+venv/
+env/
+ENV/
+
+# VS Code settings (if using VS Code)
+.vscode/
+*.code-workspace
+
+# PyCharm/IDE files
+.idea/
+
+# Sensitive data (YOUR personal tasks & notes)
+data/
+data/todo_list.txt
+data/notes.txt
+
+# Windows thumbnails
+Thumbs.db
+
+# Mac junk
+.DS_Store
+
+# Audio cache or logs (if any)
+*.wav
+*.log
