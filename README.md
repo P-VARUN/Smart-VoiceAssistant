@@ -20,10 +20,13 @@ Supports speech recognition, text-to-speech, to-do list, notes, Wikipedia search
 - File handling for persistent data
 
 ## 🚀 How to Run
-1. Clone this repo
+1. How to Clone this repo?
+    * Make sure you have git, VS code downloaded 
+    * Open VS code select any new folder
+    * Select Terminal->New Terminal->pass **git clone https://github.com/username/repository-name.git** code in terminal
 2. `pip install -r requirements.txt`
 3. Run: `python main.py`
-4. Wait for "Listening..." to come and then start speaking
+4. Wait for "Listening..." to appear and then start speaking.🫰
 
 ## 📁 Project Structure (Modular Design)
 - `main.py` → The brain (while loop + command routing)
