@@ -57,7 +57,7 @@ while True:
                 add_notes(note)
     #Notes showing-----------------
     elif any(word in uservoice for word in ["show note", "show notes", "view note", "view notes"]):
-        view_notes()
+        show_notes()
     #Notes removing----------------
     elif any(word in uservoice for word in ["remove note", "remove notes", "delete note", "delete notes", "clear note", "clear notes"]):
         remove_notes()
