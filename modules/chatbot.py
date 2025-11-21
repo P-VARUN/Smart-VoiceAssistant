@@ -42,4 +42,4 @@ def chatbot(text):
         speak("opening youtube...")
         webbrowser.open_new_tab("https://www.youtube.com/")
     else:
-        speak("I didn't understand that, but I'm still learning!")
+        speak("Sorry I did not hear that.")
