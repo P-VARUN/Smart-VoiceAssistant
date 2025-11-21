@@ -43,6 +43,6 @@ def chatbot(text):
         webbrowser.open_new_tab("https://www.youtube.com/")
     elif "bye" in text:
         speak("Happy to talk to you, Meet you again.")
-        break
+        exit()
     else:
         speak("Sorry I did not hear that.")
