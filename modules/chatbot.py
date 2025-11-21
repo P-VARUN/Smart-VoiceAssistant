@@ -34,6 +34,9 @@ def chatbot(text):
             speak(result)
         else:
             pass
+    elif "bye" in text:
+        speak("Happy to talk to you, Meet you again.")
+        exit()
     elif any(start in text for start in ["hi", "hello", "whatsup!"]):
         speak("Hello , whats in your mind?")
     elif "thank you" in text or "thanks" in text:
@@ -41,8 +44,5 @@ def chatbot(text):
     elif "open youtube" in text:
         speak("opening youtube...")
         webbrowser.open_new_tab("https://www.youtube.com/")
-    elif "bye" in text:
-        speak("Happy to talk to you, Meet you again.")
-        exit()
     else:
         speak("Sorry I did not hear that.")
