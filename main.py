@@ -27,7 +27,7 @@ while True:
     elif any(word in uservoice for word in ["add task", "add new task", "add a task", "add a new task", "add to task", "add this to task"]):
         remove_list=["add task", "add new task", "add a task", "add a new task", "add to task", "add this to task"]
         for phrase in remove_list:
-            task=task.replace(phrase, "")
+            task=uservoice.replace(phrase, "")
         task=task.strip()
         if (task!=""):
             add_task(task)
@@ -46,7 +46,7 @@ while True:
     elif any(word in uservoice for word in ["add note", "add new note", "add a note", "add a new note" , "add to note", "add this to note"]):
         remove_list=["add note", "add new note", "add a note", "add a new note", "add to note", "add this to note"]
         for phrase in remove_list:
-            note=note.replace(phrase, "")
+            note=uservoice.replace(phrase, "")
         note=note.strip()
         if (note!=""):
             add_notes(note)

@@ -7,9 +7,9 @@ def chatbot(text):
     if "your name" in text:
         speak("I am just a simple voice assistant, I dont have any name.")
     elif "your age" in text:
-        speak("I am a software program, so I don't age. I only get updated.")
+        speak("I am a software program, so I don't have age. I only get updated.")
     elif "what can you do for me" in text:
-        speak("I can add notes; Save your tasks; Tell you day, day, time, weather, and jokes.")
+        speak("I can add notes; Save your tasks; Tell you day, date, time, weather, and jokes.")
     elif "who are you" in text:
         speak("I am voice based program in python, created by a Engineering Student.")
     elif "created you" in text:
@@ -41,5 +41,8 @@ def chatbot(text):
     elif "open youtube" in text:
         speak("opening youtube...")
         webbrowser.open_new_tab("https://www.youtube.com/")
+    elif "bye" in text:
+        speak("Happy to talk to you, Meet you again.")
+        break
     else:
         speak("Sorry I did not hear that.")
