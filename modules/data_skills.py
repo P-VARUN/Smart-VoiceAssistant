@@ -43,7 +43,8 @@ def show_notes():
             notes = f.readlines()
         if notes:
             speak("Here is your notes")
-            print(notes + "\n\n")
+            for note in notes:
+                print(note)
         else:
             speak("No notes avaliable.")
     except:
