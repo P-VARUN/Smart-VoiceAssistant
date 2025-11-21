@@ -1,6 +1,5 @@
 import wikipedia
 import requests
-import openmeteo_requests
 from modules.audio import speak
 
 def search_wikipedia(query):
