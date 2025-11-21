@@ -25,12 +25,9 @@ while True:
         tell_joke()
     #-------------------------------------------FOR TO DO LIST(TASKS)
     elif any(word in uservoice for word in ["add task", "add new task", "add a task", "add a new task", "add to task", "add this to task"]):
-        task=uservoice.replace("add task","")
-        task=task.replace("add new task","")
-        task=task.replace("add a task","")
-        task=task.replace("add a new task","")
-        task=task.replace("add to task","")
-        task=task.replace("add this to task","")
+        remove_list=["add task", "add new task", "add a task", "add a new task", "add to task", "add this to task"]
+        for phrase in remove_list:
+            task=task.replace(phrase, "")
         task=task.strip()
         if (task!=""):
             add_task(task)
@@ -47,12 +44,9 @@ while True:
         remove_task()
     #-------------------------------------------NOTES
     elif any(word in uservoice for word in ["add note", "add new note", "add a note", "add a new note" , "add to note", "add this to note"]):
-        note=uservoice.replace("add note","")
-        note=note.replace("add new note", "")
-        note=note.replace("add a note","")
-        note=note.replace("add a new note","")
-        note=note.replace("add to note","")
-        note=note.replace("add this to note","")
+        remove_list=["add note", "add new note", "add a note", "add a new note", "add to note", "add this to note"]
+        for phrase in remove_list:
+            note=note.replace(phrase, "")
         note=note.strip()
         if (note!=""):
             add_notes(note)
