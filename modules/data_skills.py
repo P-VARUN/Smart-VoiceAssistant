@@ -1,4 +1,4 @@
-from modules.audio import speak
+from modules.audio import speak, takespeech
 from datetime import datetime
 
 def add_task(task):
