@@ -8,7 +8,7 @@ def chatbot(text):
         speak("I am just a simple voice assistant, I dont have any name.")
     elif "your age" in text:
         speak("I am a software program, so I don't have age. I only get updated.")
-    elif "what can you do for me" in text:
+    elif "what can you do" in text:
         speak("I can add notes; Save your tasks; Tell you day, date, time, weather, and jokes.")
     elif "who are you" in text:
         speak("I am voice based program in python, created by a Engineering Student.")
