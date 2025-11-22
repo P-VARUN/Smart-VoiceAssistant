@@ -25,7 +25,7 @@ Supports speech recognition, text-to-speech, to-do list, notes, Wikipedia search
     * Open VS code select any new folder
     * Select Terminal->New Terminal->pass
     ```
-         **git clone https://github.com/P-VARUN/Smart-VoiceAssistant**
+        git clone https://github.com/P-VARUN/Smart-VoiceAssistant
     ```
     that code in Terminal.
 2. `pip install -r requirements.txt`
