@@ -24,8 +24,10 @@ Supports speech recognition, text-to-speech, to-do list, notes, Wikipedia search
     * Make sure you have git, VS code downloaded 
     * Open VS code select any new folder
     * Select Terminal->New Terminal->pass
-                                    >>>>  **git clone https://github.com/P-VARUN/Smart-VoiceAssistant**  <<<<
-    code inbetween arrows in Terminal.
+    '''sh
+     **git clone https://github.com/P-VARUN/Smart-VoiceAssistant**  <<<<
+    '''
+    that code in Terminal.
 2. `pip install -r requirements.txt`
 3. Run: `python main.py`
 4. Wait for "Listening..." to appear and then start speaking.🫰
