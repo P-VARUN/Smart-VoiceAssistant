@@ -36,5 +36,4 @@ def get_weather(city_name):
         current_temp = response["current"]["temperature_2m"]
         speak(f"The current temperature in {city_name} is {current_temp} degrees celsius")
     except Exception as e:
-        print(e)
         speak("Sorry, Server is busy , can't get weather now!")
