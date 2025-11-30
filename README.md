@@ -41,4 +41,4 @@ Made with ❤️ for my Python Major Project
 Feel free to work and improve!
 
 ## 🔎Contact Info
-Contact me if any errors faced, or doubts in the project: https://discord.gg/s4qsdWS5S2
+Contact me if any errors faced, or doubts in the project: https://discord.gg/x7fwNARK3v

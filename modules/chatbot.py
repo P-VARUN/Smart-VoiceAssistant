@@ -17,14 +17,14 @@ def chatbot(text):
         speak("Do you want to know more about him, or ask any question about the project?")
         response = takespeech()
         if any(word in response for word in ["yes","ok","sure","yeah"]):
-            invite_url = "https://discord.gg/s4qsdWS5S2"
+            invite_url = "https://discord.gg/x7fwNARK3v"
             speak("Opening Discord invite.")
             webbrowser.open_new_tab(invite_url)
         else:
             pass
     elif any(word in text for word in ["contact admin", "contact creator", "contact host", "contact your creator"]):
         speak("fulfilling your request...")
-        webbrowser.open_new_tab("https://discord.gg/s4qsdWS5S2")
+        webbrowser.open_new_tab("https://discord.gg/x7fwNARK3v")
     elif any(start in text for start in ["language is used", "language are you created"]):
         speak("I am prepared by using PYTHON programming language.")
         speak("Do you want to know more about python language.")
